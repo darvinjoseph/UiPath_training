@@ -71,7 +71,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="716,604" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="716,777" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -84,12 +84,13 @@
       </ui:AddLogFields.Fields>
     </ui:AddLogFields>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;log for deployment&quot;]" />
-    <ui:RemoveLogFields DisplayName="Remove Log Fields" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="RemoveLogFields_1">
+    <ui:RemoveLogFields DisplayName="Remove Log Fields" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="RemoveLogFields_1">
       <ui:RemoveLogFields.Fields>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
           <InArgument x:TypeArguments="x:String">connection</InArgument>
         </scg:List>
       </ui:RemoveLogFields.Fields>
     </ui:RemoveLogFields>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;log for deployment after remove&quot;]" />
   </Sequence>
 </Activity>
